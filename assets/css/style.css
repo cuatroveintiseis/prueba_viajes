@@ -7,4 +7,15 @@
 
 .card{
 border:none;
+background-color: #17A2B8;
+color: #ffffff;
 }
+
+.btn-color-custom {
+    background-color: #17A2B8;
+    color: #ffffff;
+ }
+
+ footer {
+    background-color: #17A2B8;
+ }
