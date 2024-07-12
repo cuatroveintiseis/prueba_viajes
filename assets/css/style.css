@@ -6,9 +6,14 @@
 }
 
 .card{
-border:none;
+    border-color: #ffffff;
 background-color: #17A2B8;
 color: #ffffff;
+}
+
+.img-card img{
+    object-fit: cover;
+    height: 200px;
 }
 
 .btn-color-custom {
