@@ -19,3 +19,12 @@ color: #ffffff;
  footer {
     background-color: #17A2B8;
  }
+
+ footer i{
+    font-size: 25px;
+    padding-left: 10px;
+ }
+
+ footer p{
+    font-size: 20px;
+ }
