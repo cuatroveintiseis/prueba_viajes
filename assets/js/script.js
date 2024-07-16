@@ -15,4 +15,9 @@ $(document).ready(function(){
             });
         }
     });
+
+    $(".card-img-top").click(function(){
+        $(".card-body").toggle();
+        
+      });
 });
