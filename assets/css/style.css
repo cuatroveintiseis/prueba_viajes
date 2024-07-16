@@ -1,35 +1,136 @@
-.contenedor i{
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.contenedor p {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.contenedor i {
     font-size: 20px;
     background-color: #0DCAF0;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.card{
+.card {
     border-color: #ffffff;
-background-color: #17A2B8;
-color: #ffffff;
+    background-color: #17A2B8;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
 }
 
-.img-card img{
+.img-card img {
     object-fit: cover;
     height: 200px;
+}
+
+.form {
+    font-family: "Roboto", sans-serif;
 }
 
 .btn-color-custom {
     background-color: #17A2B8;
     color: #ffffff;
- }
+    
+}
 
- footer {
+footer {
     background-color: #17A2B8;
- }
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 
- footer i{
+footer i {
     font-size: 25px;
     padding-left: 10px;
- }
+    color: #ffffff;
+}
 
- footer p{
+footer p {
     font-size: 20px;
- }
+}

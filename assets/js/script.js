@@ -3,21 +3,23 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 
 
-$(document).ready(function(){
-    $(".nav-link").on('click', function(event) {
+$(document).ready(function () {
+    $(".nav-link").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
                 window.location.hash = hash;
             });
         }
     });
 
-    $(".card-img-top").click(function(){
+    $(".card-img-top").click(function () {
         $(".card-body").toggle();
-        
-      });
+
+    });
+
+
 });
